@@ -1,0 +1,621 @@
+.indicators {
+    margin: 0 auto;
+}
+
+.first_screen,
+.second_screen,
+.third_screen,
+.fourth_screen,
+.fifth_screen {
+    width: 1905px;
+    height: 900px;
+    background: #090909;
+    display: flex;
+    overflow: hidden;
+}
+
+.first_screen {
+    background: url('../../../public/img/bg_ami.png');
+}
+
+.bot_part {
+    min-width: 1591px;
+    position: relative;
+}
+
+.ami_decoration {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 120px;
+    border-right: 2px solid #1B1A1F;
+    padding: 76px 0 0 135px;
+}
+
+.ami_container {
+    width: 1400px;
+    height: 744px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ami_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ami_header {
+    font-family: 'Ristretto Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 70px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.ami_desc {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 35px;
+    /* or 146% */
+    width: 293px;
+    color: #FFFFFF;
+}
+
+.links {
+    display: flex;
+    width: 170px;
+    justify-content: space-between;
+}
+  
+.link {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #212126;
+    background: none;
+    cursor: pointer;
+}
+
+.link:last-child {
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link_h {
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+.link p {
+    font-family: 'Ristretto Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 5px;
+}
+
+.ami_txt {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+    width: 335px;
+    color: #FFF;
+}
+
+.ami_txt span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+
+
+    color: #FFCF52;
+}
+
+.ami_button {
+    width: 318px;
+    height: 78px;
+    background: none;
+    border: 1px solid #1C1E20;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ami_button span {
+    font-family: 'Ristretto Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 21px;
+}
+
+.second_screen {
+    background: url('../../../public/img/bg_key.png');
+}
+
+.key_top {
+
+}
+
+.key_header {
+    font-family: 'Ristretto Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 70px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFCF52;
+}
+
+.key_desc {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 35px;
+    /* or 146% */
+    width: 423px;
+    color: #FFFFFF;
+}
+
+.key_txt {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+    width: 329px;
+    color: #FFFFFF;
+    margin-top: 13px;
+    opacity: 0.5;
+}
+
+.key_txt:last-child {
+    margin-top: 0;
+}
+
+.key_button {
+    width: 318px;
+    height: 78px;
+    background: none;
+    border: 1px solid #1F1F25;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.key_button span {
+    font-family: 'Ristretto Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 21px;
+    color: #FFFFFF;
+}
+
+.third_screen {
+    background: url('../../../public/img/bg_dig.png');
+}
+
+.digital_header {
+    font-family: 'Ristretto Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 70px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.digital_header span {
+    color: #FFCF52;
+}
+
+.digit_container {
+    width: 1371px;
+    height: 630px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 44px;
+}
+.digit_block {
+    width: 457px;
+    height: 315px;
+    background: transparent;
+    padding: 47px 0 45px 51px;
+    border: 1px solid #25292F;
+    transition: all .3s ease;
+}
+
+.digit_block:hover {
+    border: none;
+    background: #FFCF52;
+    transform: scale(1.05);
+}
+
+.digit_block:hover p {
+    color: black;
+}
+
+.digit_block_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.digit_header {
+    font-family: 'Ristretto Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.digit_crit {
+    display: flex;
+}
+
+.digit_crit_txt {
+    font-family: 'Ristretto Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.digit_crit_txt:nth-child(2) {
+    margin-left: 16px;
+}
+
+.fourth_screen {
+    background: url('../../../public/img/bg_sal.png');
+}
+
+.sal_header {
+    font-family: 'Ristretto Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 70px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    width: 410px;
+    color: #FFFFFF;
+}
+
+.sal_header span {
+    color: #FFCF52;
+}
+
+.sal_low {
+    display: flex;
+}
+
+.sal_block {
+    width: auto;
+    height: 187px;
+    border-top: 1px solid #1F1F21;
+    border-bottom: 1px solid #1F1F21;
+    padding-top: 21px;
+    margin-right: 50px;
+}
+
+.sal_block_txt {
+    font-family: 'Ristretto Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 70px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #FFCF52;
+}
+
+.sal_block_dec {
+    font-family: 'Ristretto Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    width: 156px;
+    color: #FFFFFF;
+}
+
+.fifth_screen {
+    background: url('../../../public/img/bg_robot.png');
+}
+
+.robot_header {
+    font-family: 'Ristretto Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 70px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    width: 358px;
+    color: #FFFFFF;
+}
+
+.robot_header span {
+    color: #FFCF52;
+}
+
+.robot_button {
+    width: 318px;
+    height: 78px;
+    background: none;
+    border: 1px solid #1F2127;
+}
+
+.robot_button span {
+    font-family: 'Ristretto Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 21px;
+    color: #FFFFFF;
+
+}
+
+@media (max-width:1919px) {
+    /* .first_screen,
+    .second_screen,
+    .third_screen,
+    .fourth_screen,
+    .fifth_screen {
+      width: 100vw;
+    }
+
+    .links {
+      width: 240px;
+    }
+  
+    .bot_part {
+        min-width: 100vw;
+    }
+
+    .nav_part {
+      display: none;
+    }
+  
+    .link_h {
+      display: flex;
+    }
+  
+    .nav_part {
+      position: absolute;
+      width: 314px;
+      right: 0;
+      left: 0;
+      margin: 0 auto;
+      z-index: 9;
+      top: 336px;
+      background: black;
+    } */
+
+    .nav_part {
+        background: black;
+    }
+
+    .third_screen {
+        height: auto;
+    }
+
+    .digit_container {
+        width: 60vw;
+        height: auto;
+    }
+
+    .first_screen,
+    .second_screen,
+    .third_screen,
+    .fourth_screen,
+    .fifth_screen {
+      /* width: 80vw; */
+    }
+  
+    .bot_part {
+        min-width: 80vw;
+    }
+
+    .ami_container {
+        width: 60vw;
+    }
+
+    .ami_decoration {
+        width: 80vw;
+    }
+  }
+
+  @media (max-width: 1513px) {
+    .info_part,
+    .bot_part,
+    .ami_decoration {
+      min-width: 78vw;
+      max-width: 79vw;
+    }
+    .bot_text_block {
+      width: 60vw;
+      margin: 0 auto;
+    }
+  
+    .bot_decoration {
+      padding-left: 0px;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    .info_part,
+    .bot_part,
+    .ami_decoration {
+      min-width: 75vw;
+      max-width: 76vw;
+    }
+  
+  
+  }
+  
+  @media (max-width: 1178px) {
+    .info_part,
+    .bot_part,
+    .ami_decoration {
+      min-width: 73vw;
+      max-width: 74vw;
+
+    }
+    .bot_decoration {
+      padding-left: 30px;
+    }
+  }
+  
+  @media (max-width: 1070px) {
+    .info_part,
+    .bot_part,
+    .ami_decoration {
+      min-width: 100vw;
+      max-width: 100vw;
+
+    }
+  }
+
+  @media (max-width: 1070px) {
+
+    .first_screen,
+    .second_screen,
+    .third_screen,
+    .fourth_screen,
+    .fifth_screen {
+      width: 100vw;
+    }
+
+    /* .info_part,
+    .bot_part,
+    .bot_decoration {
+        min-width: 100vw;
+        max-width: 100vw;
+    } */
+
+    .links {
+      width: 240px;
+    }
+  
+    .bot_part {
+        min-width: 100vw;
+    }
+
+    .nav_part {
+      display: none;
+    }
+  
+    .link_h {
+      display: flex;
+    }
+  
+    .nav_part {
+      position: absolute;
+      width: 314px;
+      right: 0;
+      left: 0;
+      margin: 0 auto;
+      z-index: 9;
+      top: 336px;
+      background: black;
+    }
+    .ami_container {
+        width: 80vw;
+    }
+
+    .ami_decoration {
+        width: 100vw;
+    }
+
+    .third_screen {
+        height: auto;
+    }
+
+    .digit_container {
+        width: 100vw;
+        height: auto;
+    }
+
+  }
+  
+  @media (max-width: 622px) {
+    .ami_decoration {
+        padding: 76px 0 0 43px;
+        border-top-right-radius: 0;
+    }
+
+    .ami_top {
+        flex-direction: column;
+    }
+  }
+
+  @media (max-width: 543px) {
+    .ami_decoration {
+        padding: 76px 0 0 5px;
+    }
+
+    .key_desc {
+        width: 95vw;
+    }
+
+    .sal_header {
+        width: 95vw;
+    }
+
+    .digit_block {
+        width: 100vw;
+    }
+  }

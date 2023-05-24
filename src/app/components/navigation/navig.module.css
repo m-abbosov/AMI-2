@@ -1,0 +1,75 @@
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 860px;
+    width: 314px;
+}
+
+.cell {
+    width: 157px;
+    height: 196px;
+    border: 1px solid #1B1A1F;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    transition: all .3s ease;
+}
+
+.cell:hover,
+.big_cell:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.cell_inside {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cell_title {
+    font-family: 'Ristretto Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.big_cell {
+    width: 312px;
+    height: 118px;
+    border: 1px solid #1B1A1F;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    transition: all .3s ease;
+}
+
+.cell_title:last-child {
+     margin-top: 5px;
+}
+
+.big_cell_inside {
+    width: 152px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@media (max-width: 1919px) {
+    .navigation {
+        max-height: 100%;
+    }
+}
