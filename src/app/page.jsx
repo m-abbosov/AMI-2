@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import Navigation from './components/navigation/navig'
 import { useRef } from 'react';
+import Fullpage, { FullPageSections, FullpageSection } from '@ap.cx/react-fullpage';
 
 export default function Home() {
 
@@ -16,7 +17,10 @@ export default function Home() {
   }
 
   return (
+    <Fullpage>
     <main className={styles.main}>
+      <FullPageSections>
+        <FullpageSection  style={{height:'900px'}}>
       <div className={styles.first_screen}>
         <div className={styles.info_part}>
           <div className={styles.info_container}>
@@ -60,7 +64,8 @@ export default function Home() {
           <Navigation />
         </div>
       </div>
-      <div className={styles.line}></div>
+        </FullpageSection>
+        <FullpageSection style={{height:'100vh'}}>
       <div className={styles.second_screen}>
         <div className={styles.bot_part}>
           <div className={styles.bot_decoration}>
@@ -81,9 +86,15 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.nav_part}>
-          <Navigation />
+          {/* <Navigation /> */}
         </div>
       </div>
+      </FullpageSection>
+      </FullPageSections>
+      <div className={styles.static}>
+        <Navigation />
+      </div>
     </main>
+    </Fullpage>
   )
 }

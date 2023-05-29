@@ -1,5 +1,6 @@
 .about {
     margin: 0 auto;
+    overflow-y: auto;
 }
 
 .first_screen,
@@ -397,6 +398,16 @@
     transition: all .3s ease;
 }
 
+.static {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.nav_part {
+  display: none;
+}
+
 @media (max-width:1919px) {
     .nav_part {
         background: #090909;
@@ -506,6 +517,28 @@
     }
   }
 
+  @media (max-width: 1380px) {
+    .bot_decorations,
+    .second_decoration,
+    .coin_decoration,
+    .digit_decoration,
+    .but_decoration {
+      /* padding-left: 0px; */
+      width: 78vw;
+    }
+  }
+  
+  @media (max-width: 1283px) {
+    .bot_decorations,
+    .second_decoration,
+    .coin_decoration,
+    .digit_decoration,
+    .but_decoration {
+      /* padding-left: 0px; */
+      width: 73vw;
+    }
+  }
+
   @media (max-width: 1300px) {
     .info_part,
     .bot_part {
@@ -518,7 +551,7 @@
     .digit_decoration,
     .but_decoration {
       /* padding-left: 0px; */
-      width: 77vw;
+      width: 75vw;
     }
   
   }
@@ -537,7 +570,7 @@
     .digit_decoration,
     .but_decoration {
       /* padding-left: 0px; */
-      width: 75vw;
+      width: 73vw;
     }
   }
   
@@ -555,6 +588,19 @@
     }
   
     .nav_part {
+      display: none;
+    }
+
+    .digit_block {
+      display: none;
+    }
+
+    .digit_block:nth-child(1),
+    .digit_block:nth-child(2) {
+      display: flex;
+    }
+
+    .static {
       display: none;
     }
   

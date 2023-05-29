@@ -1,5 +1,11 @@
 .main {
   margin: 0 auto;
+  scroll-snap-type: y mandatory;
+}
+
+.first_screen,
+.second_screen {
+  scroll-snap-align: start;
 }
 
 .first_screen {
@@ -9,6 +15,7 @@
   display: flex;
   overflow: hidden;
   background: url('../../public/img/bg_at.png');
+  overflow-y: hidden;
 }
 
 .info_part {
@@ -220,6 +227,7 @@
   height: 900px;
   background: #090909;
   display: flex;
+  overflow-y: hidden;
 }
 
 .bot_part {
@@ -281,6 +289,16 @@
 
 .open {
   display: block !important;
+}
+
+.static {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.nav_part {
+  display: none;
 }
 
 @media (max-width:1919px) {
@@ -371,6 +389,20 @@
 
 }
 
+@media (max-width: 1380px) {
+  .info_part,
+  .bot_part {
+    min-width: 76vw;
+  }
+}
+
+@media (max-width: 1283px) {
+  .info_part,
+  .bot_part {
+    min-width: 75vw;
+  }
+}
+
 @media (max-width: 1178px) {
   .info_part,
   .bot_part {
@@ -392,6 +424,11 @@
   .first_screen,
   .second_screen {
     width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .static {
+    display: none;
   }
 
   .bot_text_block {

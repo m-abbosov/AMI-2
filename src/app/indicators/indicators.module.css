@@ -408,6 +408,16 @@
 
 }
 
+.nav_part {
+    display: none;
+}
+
+.static {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+
 @media (max-width:1919px) {
     /* .first_screen,
     .second_screen,
@@ -505,6 +515,24 @@
   
   
   }
+
+  @media (max-width: 1380px) {
+    .info_part,
+    .bot_part,
+    .ami_decoration {
+      min-width: 75vw;
+      max-width: 76vw;
+    }
+  }
+  
+  @media (max-width: 1283px) {
+    .info_part,
+    .bot_part,
+    .ami_decoration {
+      min-width: 74vw;
+      max-width: 75vw;
+    }
+  }
   
   @media (max-width: 1178px) {
     .info_part,
@@ -572,6 +600,21 @@
       top: 336px;
       background: black;
     }
+
+    .static {
+        display: none;
+      }
+
+      .digit_block {
+        display: none;
+      }
+
+      .digit_block:nth-child(1),
+      .digit_block:nth-child(2) {
+        display: flex;
+      }
+
+
     .ami_container {
         width: 80vw;
     }

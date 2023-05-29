@@ -3,6 +3,7 @@
 import styles from './about.module.css'
 import Navigation from '../components/navigation/navig'
 import { useRef } from 'react';
+import Fullpage, { FullPageSections, FullpageSection } from '@ap.cx/react-fullpage';
 
 export default function About() {
 
@@ -14,7 +15,10 @@ export default function About() {
     }
 
     return (
+        <Fullpage>
         <main className={styles.about}>
+            <FullPageSections>
+                <FullpageSection style={{height: '900px'}}>
             <div className={styles.first_screen}>
                 <div className={styles.bot_part}>
                     <div className={styles.bot_decorations}>
@@ -82,6 +86,9 @@ export default function About() {
                     <Navigation />
                 </div>
             </div>
+            </FullpageSection>
+
+            <FullpageSection style={{height: '900px'}}>
             <div className={styles.second_screen}>
                 <div className={styles.bot_part}>
                     <div className={styles.second_decoration}>
@@ -110,9 +117,12 @@ export default function About() {
                     </div>
                 </div>
                 <div className={styles.nav_part}>
-                    <Navigation />
+                    {/* <Navigation /> */}
                 </div>
             </div>
+            </FullpageSection>
+
+            <FullpageSection style={{height: 'auto'}}>
             <div className={styles.third_screen}>
                 <div className={styles.bot_part}>
                     <div className={styles.digit_decoration}>
@@ -161,9 +171,12 @@ export default function About() {
                     </div>
                 </div>
                 <div className={styles.nav_part}>
-                    <Navigation />
+                    {/* <Navigation /> */}
                 </div>
             </div>
+            </FullpageSection>
+
+            <FullpageSection style={{height: '100vh'}}>
             <div className={styles.fourth_screen}>
                 <div className={styles.fourth_scheme}>
                     <div className={styles.bot_part}>
@@ -188,10 +201,17 @@ export default function About() {
                         </div>
                     </div>
                     <div className={styles.nav_part}>
-                        <Navigation />
+                        {/* <Navigation /> */}
                     </div>
                 </div>
             </div>
+            </FullpageSection>
+
+            </FullPageSections>
         </main>
+        <div className={styles.static}>
+                <Navigation />
+            </div>
+        </Fullpage>
     )
 }

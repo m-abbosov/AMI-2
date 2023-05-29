@@ -3,6 +3,7 @@
 import styles from './indicators.module.css'
 import Navigation from '../components/navigation/navig'
 import { useRef } from 'react';
+import Fullpage, { FullPageSections, FullpageSection } from '@ap.cx/react-fullpage';
 
 export default function Indicators() {
 
@@ -14,7 +15,10 @@ export default function Indicators() {
     }
 
     return (
+        <Fullpage>
         <main className={styles.indicators}>
+            <FullPageSections>
+                <FullpageSection style={{height: '900px'}}>
             <div className={styles.first_screen}>
                 <div className={styles.bot_part}>
                     <div className={styles.ami_decoration}>
@@ -65,6 +69,9 @@ export default function Indicators() {
                     <Navigation />
                 </div>
             </div>
+            </FullpageSection>
+
+            <FullpageSection style={{height: '900px'}}>
             <div className={styles.second_screen}>
                 <div className={styles.bot_part}>
                     <div className={styles.ami_decoration}>
@@ -100,9 +107,12 @@ export default function Indicators() {
                     </div>
                 </div>
                 <div className={styles.nav_part}>
-                    <Navigation />
+                    {/* <Navigation /> */}
                 </div>
             </div>
+            </FullpageSection>
+
+            <FullpageSection style={{height: 'auto'}}>
             <div className={styles.third_screen}>
                 <div className={styles.bot_part}>
                     <div className={styles.ami_decoration}>
@@ -156,9 +166,12 @@ export default function Indicators() {
                     </div>
                 </div>
                 <div className={styles.nav_part}>
-                    <Navigation />
+                    {/* <Navigation /> */}
                 </div>
             </div>
+            </FullpageSection>
+
+            <FullpageSection style={{height: '900px'}}>
             <div className={styles.fourth_screen}>
                 <div className={styles.bot_part}>
                     <div className={styles.ami_decoration}>
@@ -182,9 +195,12 @@ export default function Indicators() {
                     </div>
                 </div>
                 <div className={styles.nav_part}>
-                    <Navigation />
+                    {/* <Navigation /> */}
                 </div>
             </div>
+            </FullpageSection>
+
+            <FullpageSection style={{height: '100vh'}}>
             <div className={styles.fifth_screen}>
                 <div className={styles.bot_part}>
                     <div className={styles.ami_decoration}>
@@ -208,9 +224,15 @@ export default function Indicators() {
                     </div>
                 </div>
                 <div className={styles.nav_part}>
-                    <Navigation />
+                    {/* <Navigation /> */}
                 </div>
             </div>
+            </FullpageSection>
+            </FullPageSections>
+            <div className={styles.static}>
+                <Navigation />
+            </div>
         </main>
+        </Fullpage>
     )
 }
