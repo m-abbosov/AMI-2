@@ -1,0 +1,809 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/app/components/navigation/navig.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.navig_navigation__aK7Vt {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 860px;
+    width: 314px;
+}
+
+.navig_cell__QfSG0 {
+    width: 157px;
+    height: 196px;
+    border: 1px solid #1B1A1F;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    transition: all .3s ease;
+}
+
+.navig_cell__QfSG0:hover,
+.navig_big_cell__98krj:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.navig_cell_inside__gZd86 {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navig_cell_title__oo21j {
+    font-family: 'Ristretto Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.navig_big_cell__98krj {
+    width: 312px;
+    height: 118px;
+    border: 1px solid #1B1A1F;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    transition: all .3s ease;
+}
+
+.navig_cell_title__oo21j:last-child {
+     margin-top: 5px;
+}
+
+.navig_big_cell_inside__rrlU_ {
+    width: 152px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@media (max-width: 1919px) {
+    .navig_navigation__aK7Vt {
+        max-height: 100%;
+    }
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/app/about/about.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.about_about__nd3gk {
+  margin: 0 auto;
+  overflow-y: auto;
+}
+
+.about_first_screen__oZO_O,
+.about_second_screen__tweqc,
+.about_third_screen__lGEfG,
+.about_fourth_screen__bNOn3 {
+  width: 1905px;
+  height: 900px;
+  background: #090909;
+  display: flex;
+  overflow: hidden;
+}
+
+.about_bot_part__F7TXO {
+  min-width: 1591px;
+  position: relative;
+}
+
+.about_bot_decorations__Sws0p,
+.about_second_decoration__13IyI,
+.about_coin_decoration__afqgb,
+.about_digit_decoration___l7u_,
+.about_but_decoration__3tTnF {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 120px;
+  border-right: 2px solid #1b1a1f;
+  padding: 76px 0 0 135px;
+}
+
+.about_bot_decorations__Sws0p {
+  background-image: url(/_next/static/media/bg.47709a92.png);
+}
+
+.about_bot_container__t_Hcm,
+.about_but_container__a43JF {
+  width: 1399px;
+  height: 770px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about_bot_high__kH6NW {
+  width: 100%;
+  /* height: 60px; */
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.about_links__KRoOw {
+  display: flex;
+  width: 170px;
+  justify-content: space-between;
+}
+
+.about_link__HQCFd {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #212126;
+  background: none;
+  cursor: pointer;
+}
+
+.about_link_h__naYkn {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_link__HQCFd:last-child {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_link__HQCFd p {
+  font-family: "Ristretto Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.about_bot_title_block__xRHwM {
+  width: 315px;
+}
+
+.about_bot_title__saz9e {
+  font-family: "Ristretto Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 70px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #ffcf52;
+}
+
+.about_bot_title__saz9e:last-child {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+  /* or 146% */
+  color: #ffffff;
+}
+
+.about_bot_low__xU3rJ {
+  display: flex;
+}
+
+.about_option__IS9gz {
+  display: flex;
+  margin-right: 48px;
+}
+
+.about_option__IS9gz:last-child {
+  margin-right: 0;
+}
+
+.about_option_btn__9hUpe {
+  border: 1px solid #1f2023;
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.about_option_txt__cUxAk {
+  font-family: "Ristretto Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.about_second_decoration__13IyI {
+  background: url(/_next/static/media/bg_s.5893c4bb.png);
+  padding: 0;
+  border: none;
+}
+
+.about_coin_decoration__afqgb {
+  background: url(/_next/static/media/logotypes.e0339015.png);
+  padding-bottom: 80px;
+  background-repeat: no-repeat;
+  background-position: top 60px left 440px;
+}
+
+.about_coin_block__0KTh1 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about_coin_title_block__Uob16 {
+  width: 389px;
+}
+
+.about_coin_title__A_YDM {
+  font-family: "Ristretto Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 70px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #ffcf52;
+}
+
+.about_coin_title__A_YDM:last-child {
+  color: #fff;
+}
+
+.about_coin_txt__MeFka {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 35px;
+  color: #a2a3a4;
+}
+
+.about_coin_desc__UrR_1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  width: 327px;
+  color: #ffffff;
+}
+
+.about_coin_button__ywBB6 {
+  margin-top: 25px;
+  width: 318px;
+  height: 78px;
+  background: transparent;
+  border: 1px solid #2e3033;
+  cursor: pointer;
+}
+
+.about_coin_button_txt__1E0RY {
+  font-family: "Ristretto Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height */
+  margin-right: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.about_digit_decoration___l7u_ {
+  background: url(/_next/static/media/bg_th.5893c4bb.png);
+}
+
+.about_digit_container__MnM5r {
+  width: 1371px;
+  height: 742px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about_digit_text_block__8J_tU {
+  width: 457px;
+  height: 371px;
+}
+
+.about_digit_text__vYXY0 {
+  font-family: "Ristretto Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 70px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.about_digit_text__vYXY0:nth-child(3) {
+  color: #ffcf52;
+}
+
+.about_digit_block__DS_Mu {
+  width: 457px;
+  height: 371px;
+  background: transparent;
+  padding: 47px 0 45px 51px;
+  border: 1px solid #25292f;
+  transition: all 0.3s ease;
+}
+
+.about_digit_block__DS_Mu:hover {
+  border: none;
+  background: #ffcf52;
+  transform: scale(1.05);
+}
+
+.about_digit_block__DS_Mu:hover p {
+  color: black;
+}
+
+.about_digit_block_container__TOy4x {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.about_digit_header__ePB1m {
+  font-family: "Ristretto Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.about_digit_crit__vVKWz {
+  display: flex;
+}
+
+.about_digit_crit_txt__olj0P {
+  font-family: "Ristretto Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.about_digit_crit_txt__olj0P:nth-child(2) {
+  margin-left: 16px;
+}
+
+.about_fourth_screen__bNOn3 {
+  background: url(/_next/static/media/bg_fo.5893c4bb.png);
+}
+
+.about_fourth_scheme__v5Ylk {
+  width: 100%;
+  height: 100%;
+  background: url(/_next/static/media/cpu_board.cb0f33e7.png);
+  display: flex;
+}
+
+.about_but_header__RR1tv {
+  font-family: "Ristretto Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 70px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  width: 407px;
+  color: #ffffff;
+}
+
+.about_but_button__q1hD_ {
+  width: 250px;
+  height: 78px;
+  border: 1px solid #2d2f32;
+  background: none;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+
+
+.about_but_button__q1hD_:hover {
+  background-color: #ffcf52;
+}
+
+.about_but_button_txt__fF2Re {
+  font-family: "Ristretto Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-right: 14px;
+}
+
+.about_button_block__fph9l {
+  /* position: relative; */
+}
+
+.about_button_img__RD_B_ {
+  position: absolute;
+  top: 297.53px;
+  left: 811.64px;
+  pointer-events: none;
+  cursor: pointer;
+}
+
+.about_button_block__fph9l:hover img {
+  opacity: 1;
+}
+
+.about_button_on_f__PuxS5 {
+  position: absolute;
+  top: 392.73px;
+  left: 900.55px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.about_button_on_s__4rhrr {
+  position: absolute;
+  top: 376.16px;
+  left: 952.82px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.about_but_on_hand__uXCKc {
+  position: absolute;
+  top: 420px;
+  left: 810px;
+  width: 860.508px;
+  height: 582.653px;
+  /* transform: rotate(16.975deg); */
+  flex-shrink: 0;
+}
+
+.about_static__O86Xv {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.about_nav_part__tKAk7 {
+  display: none;
+}
+
+@media (max-width: 1919px) {
+  .about_nav_part__tKAk7 {
+    background: #090909;
+  }
+  /* .links {
+      width: 240px;
+    }
+  
+    .nav_part {
+      display: none;
+    }
+  
+    .link_h {
+      display: flex;
+    }
+  
+    .nav_part {
+      position: absolute;
+      width: 314px;
+      right: 0;
+      left: 0;
+      margin: 0 auto;
+      z-index: 9;
+      top: 600px;
+      background: black; 
+    }*/
+
+  /* .first_screen,
+    .second_screen,
+    .third_screen,
+    .fourth_screen {
+      width: 80vw;
+    } */
+
+  .about_bot_decorations__Sws0p,
+  .about_second_decoration__13IyI,
+  .about_coin_decoration__afqgb,
+  .about_digit_decoration___l7u_,
+  .about_but_decoration__3tTnF {
+    /* padding: 76px 0 0 143px; */
+    width: 80vw;
+  }
+
+  .about_digit_container__MnM5r {
+    width: 80vw;
+  }
+
+  .about_third_screen__lGEfG,
+  .about_digit_container__MnM5r {
+    height: auto;
+  }
+
+  .about_bot_part__F7TXO,
+  .about_info_part__q4oRq {
+    min-width: 80vw;
+  }
+
+  .about_bot_container__t_Hcm,
+  .about_but_container__a43JF {
+    width: 67vw;
+  }
+}
+
+@media (max-width: 1513px) {
+  .about_info_part__q4oRq,
+  .about_bot_part__F7TXO {
+    min-width: 78vw;
+  }
+  .about_bot_text_block__RfrVp {
+    width: 60vw;
+    margin: 0 auto;
+  }
+
+  .about_digit_container__MnM5r {
+    width: 67vw;
+  }
+
+  .about_bot_decorations__Sws0p,
+  .about_second_decoration__13IyI,
+  .about_coin_decoration__afqgb,
+  .about_digit_decoration___l7u_,
+  .about_but_decoration__3tTnF {
+    /* padding-left: 0px; */
+    width: 79vw;
+  }
+}
+
+@media (max-width: 1400px) {
+  .about_bot_decorations__Sws0p,
+  .about_second_decoration__13IyI,
+  .about_coin_decoration__afqgb,
+  .about_digit_decoration___l7u_,
+  .about_but_decoration__3tTnF {
+    /* padding-left: 0px; */
+    width: 78vw;
+  }
+
+  .about_button_img__RD_B_,
+  .about_button_on_f__PuxS5,
+  .about_button_on_s__4rhrr {
+    display: none;
+  }
+
+  .about_bot_container__t_Hcm,
+  .about_but_container__a43JF {
+    width: 58vw;
+  }
+}
+
+@media (max-width: 1380px) {
+  .about_bot_decorations__Sws0p,
+  .about_second_decoration__13IyI,
+  .about_coin_decoration__afqgb,
+  .about_digit_decoration___l7u_,
+  .about_but_decoration__3tTnF {
+    /* padding-left: 0px; */
+    width: 78vw;
+  }
+}
+
+@media (max-width: 1283px) {
+  .about_bot_decorations__Sws0p,
+  .about_second_decoration__13IyI,
+  .about_coin_decoration__afqgb,
+  .about_digit_decoration___l7u_,
+  .about_but_decoration__3tTnF {
+    /* padding-left: 0px; */
+    width: 73vw;
+  }
+}
+
+@media (max-width: 1300px) {
+  .about_info_part__q4oRq,
+  .about_bot_part__F7TXO {
+    min-width: 75vw;
+  }
+
+  .about_bot_decorations__Sws0p,
+  .about_second_decoration__13IyI,
+  .about_coin_decoration__afqgb,
+  .about_digit_decoration___l7u_,
+  .about_but_decoration__3tTnF {
+    /* padding-left: 0px; */
+    width: 75vw;
+  }
+}
+
+@media (max-width: 1230px) {
+  .about_info_part__q4oRq,
+  .about_bot_part__F7TXO {
+    min-width: 73vw;
+  }
+  .about_bot_decoration__dqn4e {
+    padding-left: 30px;
+  }
+  .about_bot_decorations__Sws0p,
+  .about_second_decoration__13IyI,
+  .about_coin_decoration__afqgb,
+  .about_digit_decoration___l7u_,
+  .about_but_decoration__3tTnF {
+    /* padding-left: 0px; */
+    width: 73vw;
+  }
+}
+
+@media (max-width: 1070px) {
+  .about_info_part__q4oRq,
+  .about_bot_part__F7TXO {
+    min-width: 71vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about_links__KRoOw {
+    width: 240px;
+  }
+
+  .about_nav_part__tKAk7 {
+    display: none;
+  }
+
+  .about_digit_block__DS_Mu {
+    display: none;
+  }
+
+  .about_digit_block__DS_Mu:nth-child(1),
+  .about_digit_block__DS_Mu:nth-child(2) {
+    display: flex;
+  }
+
+  .about_static__O86Xv {
+    display: none;
+  }
+
+  .about_link_h__naYkn {
+    display: flex;
+  }
+
+  .about_bot_container__t_Hcm {
+    width: 85vw;
+  }
+
+  .about_nav_part__tKAk7 {
+    position: absolute;
+    width: 314px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    z-index: 9;
+    top: 600px;
+    background: black;
+  }
+
+  .about_first_screen__oZO_O,
+  .about_second_screen__tweqc,
+  .about_third_screen__lGEfG,
+  .about_fourth_screen__bNOn3 {
+    width: 100vw;
+    min-height: 900px;
+  }
+  .about_bot_decorations__Sws0p,
+  .about_second_decoration__13IyI,
+  .about_coin_decoration__afqgb,
+  .about_digit_decoration___l7u_,
+  .about_but_decoration__3tTnF {
+    border-top-right-radius: 0;
+    padding: 76px 0 0 43px;
+    width: 100vw;
+  }
+
+  .about_first_screen__oZO_O,
+  .about_second_screen__tweqc,
+  .about_third_screen__lGEfG,
+  .about_fourth_screen__bNOn3 {
+    height: auto;
+  }
+
+  .about_digit_decoration___l7u_ {
+    /* padding: 0; */
+    display: flex;
+  }
+
+  .about_digit_container__MnM5r {
+    width: 100vw;
+    margin: 0 auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 502px) {
+  .about_bot_high__kH6NW {
+    flex-direction: column;
+  }
+
+  .about_coin_title_block__Uob16 {
+    width: 69vw;
+  }
+
+  .about_bot_decorations__Sws0p,
+  .about_second_decoration__13IyI,
+  .about_coin_decoration__afqgb,
+  .about_digit_decoration___l7u_,
+  .about_but_decoration__3tTnF {
+    border-top-right-radius: 0;
+    padding: 76px 0 0 10px;
+  }
+  .about_info_high__wRNYr {
+    flex-direction: column;
+  }
+
+  .about_info_title__7_YAC {
+    margin-bottom: 10px;
+  }
+
+  .about_but_header__RR1tv {
+    width: 60vw;
+  }
+
+  .about_bot_title_block__xRHwM {
+    max-width: 100vw;
+  }
+
+  .about_bot_title__saz9e {
+    display: block;
+    max-width: 100px;
+  }
+
+  .about_bot_decoration__dqn4e,
+  .about_info_decoration__5UXrs {
+    padding: 76px 0 0 43px;
+    border-top-right-radius: 0;
+  }
+
+  .about_digit_block__DS_Mu {
+    width: 95vw;
+  }
+  .about_option__IS9gz {
+    margin-right: 10px;
+  }
+}
+
